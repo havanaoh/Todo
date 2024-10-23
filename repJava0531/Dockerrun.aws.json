@@ -1,0 +1,13 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "havanaoh/todofront:latest",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": 8888,
+      "HostPort": 5000
+    }
+  ]
+}
